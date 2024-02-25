@@ -10,7 +10,7 @@ const PokemonList = (props: Props) => {
 
   return (
     <div className="pokemon-list">
-      {pokemons.map((pokemon, index) => (
+      {pokemons.map((pokemon) => (
         <div
           key={pokemon.id}
           className="pokemon-item"
